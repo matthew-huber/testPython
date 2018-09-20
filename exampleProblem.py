@@ -4,6 +4,7 @@ def main():
     finalResult = divide_two(summedNums, 3)
     print('Division result: {}'.format(finalResult))
 
+
 def add_three(v1, v2, v3):
     """Add three numbers
 
@@ -15,6 +16,7 @@ def add_three(v1, v2, v3):
     result = v1 + v2 + v3
     return(result)
 
+
 def divide_two(v1, v2):
     """Divide two numbers
 
@@ -25,6 +27,6 @@ def divide_two(v1, v2):
     result = v1/v2
     return(result)
 
+
 if __name__ == "__main__":
     main()
-
